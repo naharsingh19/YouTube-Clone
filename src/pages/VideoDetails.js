@@ -21,6 +21,7 @@ const VideoDetails = () => {
     document.getElementById("root").classList.add("custom-h");
     fetchVideoDetails();
     fetchRelatedVideos();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   // fetch Data for that perticular video

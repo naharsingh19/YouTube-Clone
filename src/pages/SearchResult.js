@@ -19,6 +19,7 @@ const SearchResult = () => {
   useEffect(() => {
     document.getElementById("root").classList.remove("custom-h");
     fetchSearchResults();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchQuery]);
 
   const fetchSearchResults = async () => {
